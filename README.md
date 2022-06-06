@@ -1,7 +1,7 @@
 # SML
 Our code is basically based on the publicly available toolkit: THUMT-Tensorflow[1] (python version 3.6). Please refer to it in Github for the required dependency. (Just seach it on Github.)
 
-The following steps are training our model and then test its performance in terms of BLEU, TER, and Sentence Similarity.
+The following steps are training our model and then test its performance in terms of BLEU, TER, and Sentence Similarity (Still updating).
 
 Take En->De as an example
 # Training
@@ -19,7 +19,7 @@ Our work involves three-stage training
 ## The third stage (i.e., fine-tuning on the target chat translation data)
 5) bash third_step_ende.sh # Here, set the training_step=1; Suppose the generated checkpoint file is located in path5
 6) python thumt1_code/thumt/scripts/combine_add.py --model path4 --part path5 --output path6  # copy the weight of the first stage to the second stage.
-7) bash third_step_ende.sh # Here, set the --output=path6 and the training_step=220,000; Suppose the generated checkpoint file is path7
+7) bash third_step_ende.sh # Here, set the --output=path6 and the training_step=205,000; Suppose the generated checkpoint file is path7
 
 
 # Test by multi-blue.perl
