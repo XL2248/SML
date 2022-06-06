@@ -1,4 +1,4 @@
-code_dir=thumt-dialog-wo-sp-decoder-w-mask-all-final-grad0-bottom-update-share-four-adp
+code_dir=thumt-sml
 crg=$1
 mrg=$2 #True #True
 coh=$3
