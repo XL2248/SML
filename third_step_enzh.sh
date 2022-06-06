@@ -1,4 +1,4 @@
-code_dir=thumt-dialog-wo-sp-decoder-w-mask-all-final-grad-bottom-update-share-four-adp
+code_dir=thumt-sml
 work_dir=$PWD
 data_dir=/path/to/target_data/ende/chat_${src}2${tgt}_ctx3 # for evaluation
 train_data=$data_dir
