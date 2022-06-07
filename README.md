@@ -1,5 +1,5 @@
 # SML
-The code of our [paper](https://aclanthology.org/2022.acl-long.300/) is basically based on the publicly available toolkit: THUMT-Tensorflow[1] (python version 3.6). Please refer to it in Github for the required dependency. (Just seach it on Github.)
+The code for the paper [Scheduled Multi-task Learning for Neural Chat Translation](https://aclanthology.org/2022.acl-long.300/) is basically based on the publicly available toolkit: THUMT-Tensorflow[1] (python version 3.6). Please refer to it in Github for the required dependency. (Just seach it on Github.)
 
 The following steps are training our model and then test its performance in terms of BLEU, TER, and Sentence Similarity (Still updating).
 
@@ -66,3 +66,5 @@ If you find this project helps, please cite our paper :)
     pages = "4375--4388",
 }
 ```
+
+Please feel free to open an issue or email me (yunlonliang@gmail.com) for questions and suggestions.
