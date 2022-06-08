@@ -14,7 +14,7 @@ Our work involves three-stage training
 
 ## The second stage (i.e., fine-tuning on the in-domain chat translation data)
 
-Now, the in-domain chat translation database can be downloaded here to facilitate subsequent research [ENZH](https://drive.google.com/drive/folders/1Hf4Bs_nh3xN-1wzZk8eahWzJ8CLdDqDd?usp=sharing) and [ENDE](https://drive.google.com/drive/folders/1Jk03qjOnLuTND85GlEmL8bobiMWnwpAg?usp=sharing). Note that the copyright of the aligned subtitle database belongs to [kexiaoguo](https://www.kexiaoguo.com/) and it can be used ONLY for non-commercial purposes.
+Now, the in-domain chat translation database can be downloaded here to facilitate subsequent research [ENZH](https://drive.google.com/drive/folders/1Hf4Bs_nh3xN-1wzZk8eahWzJ8CLdDqDd?usp=sharing) and [ENDE](https://drive.google.com/drive/folders/1Jk03qjOnLuTND85GlEmL8bobiMWnwpAg?usp=sharing). Note that the copyright of the aligned ENZH subtitle database belongs to [kexiaoguo](https://www.kexiaoguo.com/) and it can be used ONLY for non-commercial purposes.
 
 ```
 2) bash second_step_ende.sh # Here, set the training_step=1; Suppose the generated checkpoint file is located in path2
